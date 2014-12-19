@@ -1,0 +1,307 @@
+@charset "UTF-8";
+/* CSS Document */
+
+a { color:#000; }
+
+a:link,a:visited {
+text-decoration:none;
+color:#000;
+}
+
+/*a, a:visited {
+	color:#0196e3;
+	text-decoration:none;
+	outline:none;
+}*/
+
+a:hover {
+font-style:normal;
+color:#06C;
+}
+
+a:active {
+text-decoration:none;
+}
+
+img { border:0; }
+
+article,aside,canvas,details,figcaption,figure,footer,header,hgroup,menu,nav,section,summary {
+display:block;
+}
+
+.stylered { color:red; }
+
+.divcontentgray {
+position:static;
+top:auto;
+left:auto;
+width:175px;
+height:300px;
+float:none;
+padding-right:1px;
+padding-bottom:10px;
+background:url(/images/menupaneldarkblue1.jpg) no-repeat 100% 1px;
+}
+
+.divcontentgray li {
+position:static;
+top:auto;
+left:auto;
+width:175px;
+height:22px;
+float:none;
+border-bottom:0 solid #F1F1F1;
+padding:7px 0 0 15px;
+}
+
+.h2productm {  /*grey menu Header*/
+width:150px;
+height:11px;
+top:auto;
+left:15px;
+margin-right:-12px;
+margin-left:-15px;
+float:none;
+font-size:18px;
+font-style:normal;
+color:#FFF;
+padding:5px 12px 10px 40px;
+}
+li#twom,li#threem,li#fourm,li#fivem,li#sixm,li#sevenm,li#eightm,li#ninem,li#onem {
+border-bottom:1px solid #F2F2F2;
+}
+
+.ulproductm { /*menu context*/
+list-style-type:none;
+width:151px;
+font-size:13px;
+margin:0;
+padding:0;
+}
+
+ul.MenuBarHorizontal li {
+position:static;
+float:left;
+font-size:12px;
+background-color:red;
+width:9em;
+text-align:center;
+color:#000;
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-weight:400;
+background-position:top;
+}
+
+ul.MenuBarHorizontal a {
+color:#FFF;
+background-color:red;
+}
+
+ul,ol,dl { position: relative; }
+
+h4 {
+font-size:22px;
+line-height:1;
+color:#D41007;
+text-transform:uppercase;
+border-bottom:1px solid #ccc;
+margin:10px 0 15px;
+}
+
+h5 {
+font-size:14px;
+line-height:1;
+color:#D41007;
+margin:10px 0 15px;
+}
+
+/*blaze button*/
+.magglass {
+border:1px #D41007 solid;
+background:#D41007;
+}
+
+.magglass:hover {
+background:#f34f4f;
+}
+
+.picdiv {
+box-shadow:10px 10px 5px #888;
+}
+
+#redbutton { padding-top:10px; padding-bottom:3px;}
+
+.tableheader {
+font-size:12px;
+font-weight:700;
+color:#FFF;
+border:1px #D41007 solid;
+background:#D41007;
+}
+
+.tableheader:active,.magglass:active {
+transform:translateY(1px);
+-webkit-transform:translateY(1px);
+-moz-transform:translateY(1px);
+}
+
+.tableheader::-moz-focus-inner,.magglass::-moz-focus-inner {
+border:0;
+padding:0;
+}
+/*blaze button above*/
+
+table#cart a:link {
+text-decoration:none;
+color:#E63C1E;
+}
+
+.Tabpcontent {
+color:#000;
+padding-left:13px;
+}
+
+.TabbedPanelsTab {
+font-size:14px;
+color:#00F;
+height:20px;
+width:135px;
+}
+
+.TabbedPanelsContent,.TabbedPanelsTabSelected {
+background-color:#FFF;
+}
+
+/*CustTable Chart Header*/
+#chart #TabbedPanels1{ width:100%;}
+#chart #TabbedPanels1 .TabbedPanelsContent {
+height:auto; 
+width:350px;
+}
+#chart .TabbedPanelsContentGroup {
+border: hidden;
+width:350px;
+}
+#chart .VTabbedPanels {
+width: 52px;
+}
+#chart .VTabbedPanels .TabbedPanelsTabGroup{
+background-color:#FFF; 
+width:50px;
+border: hidden;
+}
+#chart .VTabbedPanels .TabbedPanelsTab { 
+color:#000;
+font-size:10px;
+font-weight:normal;
+height:16px;
+width:30px;
+padding: 4px 10px;
+}
+#chart .TabbedPanelsTab {
+background-color:#EEE;
+}
+#chart .TabbedPanelsTabSelected {
+background-color:#FFF;
+border-bottom: solid 1px #999;
+}
+#chart .VTabbedPanels .TabbedPanelsTab {
+border-top: solid 1px #999;
+border-left: solid 1px #999;
+border-right: solid 1px #999;
+}
+#chart .VTabbedPanels .TabbedPanelsTabGroup { float:right;}
+#chart #TabbedPanels1 .TabbedPanelsContentVisible { padding-top:5px;
+}
+/*Above CustTable Chart Header*/
+
+/*Homepage*/
+#div-social {
+	position:static;
+	width: auto;
+	overflow: hidden;
+}
+
+#home-social {
+	list-style-type:none;
+	margin: 0;
+	padding: 0;
+}
+
+#home-social li {
+	float: right;
+	width:40px;
+	height:30px;
+	padding-left: 0px;
+	padding-top: 0px;
+}
+
+.divpromo {
+	width: auto;
+	overflow: hidden;
+}
+#homepromo {
+	list-style-type:none;
+	margin: 0;
+	padding: 0;
+}
+#homepromo li {
+	float: left;
+	width:237px;
+	height:185px;
+	padding-left: 10px;
+	padding-top: 2px;
+}
+
+<!--FornEdit CustEdit LeadEdit CustInsert LeadInsertStyles-->
+label, input, textarea, select{ font-size: 12px; }
+/*input:focus { background-color: #FFFE9D; border-color: #000; }*/ /*font-size: 12px;*/
+input:focus {border-color: #FFFFFF; background-color: #FFFFFF} 	
+
+<!--FornEdit CustEdit LeadEdit CustInsert LeadInsertStyles-->
+#form1 #formEdit #forminsert, fieldset { 
+border-right-width: 1px; 
+border-bottom-width: 1px; 
+border-right-style: solid; 
+border-bottom-style: solid; 
+border-right-color: #000; 
+border-bottom-color: #000; 
+padding-top: 20px; 
+padding-left: 20px; 
+margin-bottom: 20px; 
+background-color: #EBEBEB; /*background-color: #E0E9E9; */
+color: #444;  
+border-top-style: none; 
+border-left-style: none; 
+}
+#form1 #formEdit #forminsert, legend { 
+background-color: #CCCCCC; 
+letter-spacing: .01em; 
+margin-top: 0.5px; 
+padding-top: 5px; 
+padding-right: 10px; 
+padding-bottom: 5px; 
+padding-left: 10px; 
+font-size: 1em; 
+text-transform: uppercase; 
+}
+#form1 #formEdit #forminsert, #legendcolor { background-color: #CCCCCC; }
+#form1 #formEdit #forminsert, #fieldcolor { background-color: #CCCCCC; }
+
+<!--FornEdit CustEdit LeadEdit Styles-->
+#formEdit ul.MenuBarHorizontal a{
+color:#FFFFFF; 
+background-color: #333333; 
+}
+#form1 #formEdit, #TabbedPanels1 .TabbedPanelsTab {
+/*font-size:13px; */
+color: #666666; 
+background-color: #CCCCCC; 
+height:16px; 
+width:120px; 
+}
+#form1 #formEdit, #TabbedPanels1 .TabbedPanelsContent {
+height:800px; 
+padding-top:20px; 
+}
+#form1 #formEdit, #TabbedPanels1 .TabbedPanelsTabSelected {background-color: #FFFFFF; }

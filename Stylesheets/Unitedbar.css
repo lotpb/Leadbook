@@ -1,0 +1,10 @@
+@charset "windows-1252";
+
+#stylefour { width: 1000px; height: 38px; margin: 18px auto; position: relative; z-index: 9998; font-weight: bold; background:transparent url(../images/bgOFF.gif) repeat-x top left; border-top:0px solid #666666; }
+#stylefour ul { margin:0; padding:0; list-style-type:none; width:auto; }
+#stylefour ul li { display:block; float:left; margin:0; }
+#stylefour ul li a { display:block; float:left; color:#666666; text-decoration:none; padding:11px 20px 0 20px; height:23px; background:transparent url(../images/bgDIVIDER.gif) no-repeat top right; }
+#stylefour ul li a:hover, #stylefour ul li a.current { color:#3399FF; background:#fff url(../images/bgON.gif) no-repeat top left; }
+
+
+

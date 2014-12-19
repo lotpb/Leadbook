@@ -1,0 +1,1 @@
+﻿<?xml version="1.0" encoding="utf-8" ?><info>	<infoitem key="UD_Recordset1" value="name:MsgNo;datatype:int,name:Subject;datatype:blob,name:Rating;datatype:int,name:PostBy;datatype:string,name:MsgDate;datatype:datetime" /></info>

@@ -1,0 +1,68 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+#chart .Tabpcontent {
+	color: #CCC;
+	padding: 0px;
+}
+
+#chart .TabbedPanels{ 
+float:left;
+margin-left:-6px; 
+margin-right:2px; 
+}
+
+/*#chart .TabbedPanelsTab {
+font-size:10px;
+color:#00F;
+height:20px;
+width:30px;
+}*/
+
+#chart .TabbedPanelsContent,.TabbedPanelsTabSelected {
+background-color:#FFF;
+}
+
+/*CustTable Chart Header*/
+#chart #TabbedPanels1{ width:100%;}
+
+#chart #TabbedPanels1 .TabbedPanelsContent {
+height:auto; 
+width:200px;
+}
+#chart .TabbedPanelsContentGroup {
+width:200px;
+border: hidden;
+}
+
+#chart .TabbedPanels .TabbedPanelsTabGroup{
+background-color:#FFF; 
+width:145px;
+border: hidden;
+}
+#chart .TabbedPanels .TabbedPanelsTab { 
+color:#000;
+font-size:10px;
+font-weight:normal;
+height:12px;
+width:25px;
+/*padding: 4px 10px;*/
+}
+#chart .TabbedPanelsTab {
+background-color:#EEE;
+}
+#chart .TabbedPanelsTabSelected {
+background-color:#FFF;
+border-bottom: solid 1px #999;
+}
+#chart .TabbedPanels .TabbedPanelsTab {
+border-top: solid 1px #999;
+border-left: solid 1px #999;
+border-right: solid 1px #999;
+}
+#chart .TabbedPanels .TabbedPanelsTabGroup { float:right;}
+#chart #TabbedPanels1 .TabbedPanelsContentVisible { padding:0px;
+}
+
+

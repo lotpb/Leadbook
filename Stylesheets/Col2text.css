@@ -1,0 +1,82 @@
+@charset "UTF-8";
+/* CSS Document */
+body {
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:12px;	
+background:#666;
+text-align:center;
+color:#000;
+margin:0;
+padding:0;
+}
+
+.twoColFixRtHdr #container {
+width:1100px;
+background:#FFF;
+border:1px solid #000;
+text-align:left;
+margin:0 auto;
+overflow:hidden
+}
+
+.twoColFixRtHdr #header {
+	background: #000;
+	padding: 0 10px 0 20px;
+	font-size: 16px;
+}
+
+.twoColFixRtHdr #sidebar1 {
+float:right;
+width:200px;
+height:1000px;
+background:#EBEBEB;
+padding:1em 1em;
+    /*background: #e1d8b9;*/
+	margin-bottom: 1.5em;
+	-webkit-border-top-left-radius: 0px;
+	-webkit-border-top-right-radius: 0px;
+	-webkit-border-bottom-right-radius: 20px;
+	-webkit-border-bottom-left-radius: 0px;
+	-moz-border-radius-topleft: 0px;
+	-moz-border-radius-topright: 0px;
+	-moz-border-radius-bottomright: 20px;
+	-moz-border-radius-bottomleft: 0px;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+	border-bottom-right-radius: 20px;
+	border-bottom-left-radius: 0px;
+display:inline; 
+overflow:hidden
+}
+
+.twoColFixRtHdr #mainContent {
+margin:0 215px 0 0;
+padding:0 20px;
+}
+
+.twoColFixRtHdr #footer {
+background:#DDD;
+padding:0 10px 0 20px;
+}
+
+.fltrt {
+float:right;
+margin-left:8px;
+}
+
+.fltlft {
+float:left;
+margin-right:8px;
+}
+
+.clearfloat {
+clear:both;
+height:0;
+font-size:1px;
+line-height:0;
+}
+
+.twoColFixRtHdr #header h1,.twoColFixRtHdr #footer p {
+margin:0;
+padding:10px 0;
+}

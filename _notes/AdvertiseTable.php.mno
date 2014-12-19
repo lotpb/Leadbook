@@ -1,0 +1,1 @@
+﻿<?xml version="1.0" encoding="utf-8" ?><info>	<infoitem key="UD_fmAdvertise" value="name:AdNo;datatype:int,name:Advertiser;datatype:string,name:Active;datatype:string" />	<infoitem key="UD_fmEditadvertise" value="name:AdNo;datatype:int,name:Advertiser;datatype:string,name:Active;datatype:string" /></info>

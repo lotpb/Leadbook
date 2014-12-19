@@ -1,0 +1,188 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/*html5 display rule*/
+h6.branding {
+text-align:center;
+margin-top:10px;
+width:350px;
+font-size:2em;
+line-height:1.6;
+margin-left:25px;
+margin-bottom:25px;
+}
+
+p.branding {
+background:rgba(35,31,32,.8);
+text-align:right;
+margin-top:22px;
+width:200px;
+color:#FFF;
+float:left;
+font-size:1.27em;
+line-height:1.6;
+margin-left:-14px;
+padding:1.2em 1em;
+}
+
+p.branding a {
+color:#f9e482;
+line-height:normal;
+text-transform:capitalize;
+}
+
+.orange {
+text-transform:uppercase;
+color:#fbae2c;
+font-weight:700;
+}
+
+.blue {
+text-transform:uppercase;
+color:#0263ae;
+font-weight:700;
+}
+
+.lavender {
+text-transform:uppercase;
+color:#a858a3;
+font-weight:700;
+}
+
+aside {
+float:right;
+width:200px;
+}
+
+section.info {
+width:200px;
+float:left;
+background:#FFF;
+margin:1px 3px 0 1px;
+}
+
+section.info h2 {
+color:#FFF;
+background:url(../images/diag_pattern.png);
+line-height:45px;
+padding-left:.6em;
+font-size:1.2em;
+font-weight:100;
+margin-top:0px;
+}
+
+section.info img {
+display:block;
+margin:0 auto 2em;
+}
+
+section.info p,section.info ul {
+list-style:none;
+margin:0 1.2em 1em;
+}
+
+section.info li {
+margin-bottom:.8em;
+font-size:.9em;
+}
+
+section.info li a {
+display:block;
+}
+
+section.info .date {
+font-weight:700;
+color:#FFF;
+display:block;
+}
+
+section.info ul {
+margin-top:16px;
+}
+
+section.condense {
+max-height:190px;
+overflow:hidden;
+position:relative;
+-webkit-transition:max-height .75s ease 0;
+-moz-transition:max-height .75s ease 0;
+-ms-transition:max-height .75s ease 0;
+-o-transition:max-height .75s ease 0;
+transition:max-height .75s ease 0;
+}
+
+section.condense:hover {
+max-height:999px;
+}
+
+section.condense:after {
+content:" ";
+background:url(../images/hover.png) no-repeat right top;
+width:30px;
+height:45px;
+position:absolute;
+right:0;
+top:0;
+}
+
+section.condense:hover:after {
+background-position:right bottom;
+}
+
+section.show {
+background:#fbae2c;
+}
+
+section.events {
+background:#0263ae;
+margin-right:0;
+}
+
+section.alumni,section.academic {
+background:#fbae2c;
+margin-right:0;
+}
+
+section.connect {
+background:#a858a3;
+margin-right:0;
+}
+
+.connect ul {
+list-style:none;
+margin:0;
+}
+
+section.connect li {
+float:left;
+margin:0px 15px 15px 0;
+}
+
+.connect li a {
+display:block;
+width:45px;
+height:45px;
+text-indent:-999em;
+background:url(../images/social_sprite.png) no-repeat;
+}
+
+.connect li:last-child {
+margin-right:0;
+}
+
+.connect a.twitter {
+background-position:left top;
+}
+
+.connect a.google {
+background-position:-45px 0;
+}
+
+.connect a.facebook {
+background-position:-90px 0;
+}
+
+.connect a.linked {
+background-position:right top;
+}
+

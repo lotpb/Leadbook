@@ -1,0 +1,143 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/*table#cart td a:visited {
+color:#999;
+}*/
+table#cart td a, td a:visited {
+padding-top:6px;
+padding-bottom:6px;
+margin-top:-6px;
+margin-bottom:-6px;
+}
+
+table#cart {
+	/*font-family:Century Gothic,Myriad Pro,Arial,Helvetica,sans-serif;*/
+	font-size:12px;
+	border-collapse: collapse;
+	margin-bottom: 1em;
+	width: 100%;
+}
+	
+	table#cart th {
+	/*font-size: 12px;*/
+	background: #006b68;
+	color: #fff;
+	text-align: left;
+	white-space: nowrap;
+	list-style-type: square;
+	}
+	
+	table#cart th,
+	table#cart td {
+		padding: 7px 6px;
+		border-bottom:solid 1px #eee; 
+	}
+	
+	table#cart tr td {
+		background: #fff;
+	}
+	
+	table#cart tr.odd td {
+		background: #eee;
+	}
+	
+	table#cart.center {
+		text-align: center;
+	}
+
+/*-------------------------Navagation Table------------------*/
+
+table#nav {
+	color: #7F7F7F;
+	/*font: 1.1em/1.6em "Trebuchet MS",Verdana,sans-serif;*/
+	border-collapse: collapse
+}
+
+table#nav,caption {
+	/*margin: 0 auto; centers navigation bar*/ 
+	border-right: 1px solid #CCC;
+	border-left: 1px solid #CCC
+}
+
+	table#nav th {
+	  /*  font-size:10px;*/
+		background: #006b68;
+		color: #fff;
+		text-align: left;
+		white-space: nowrap;
+	}
+	
+	table#nav th,
+	table#nav td {
+		padding: 7px 6px;
+		border-bottom:solid 1px #eee; 
+	}
+	
+table#nav caption,th,td {
+	border-left: 0;
+	padding: 5px
+}
+
+/*table#nav caption,thead th,tfoot th,tfoot td {
+	background-color: #E63C1E;
+	color: #FFF;
+	font-weight: bold;
+	text-transform: uppercase
+}*/
+
+/*table#nav thead th {
+	background-color: #C30;
+	color: #FFB3A6;
+	text-align: center
+}*/
+
+table#nav tbody th {
+	padding: 20px 20px;
+}
+
+table#nav tbody tr.odd {
+	background-color: #F7F7F7;
+	color: #666;
+}
+
+table#nav tbody a {
+	padding: 1px 2px;
+	color: #333;
+	text-decoration: none;
+	border-bottom: 1px dotted #E63C1E;
+}
+
+/*table#nav tbody a:active,tbody a:hover,tbody a:focus,tbody a:visited {
+	color: #666
+}*/
+
+/*table#nav tbody tr:hover {
+	background-color: #EEE;
+	color: #333;
+}*/
+
+/*table#nav tbody tr:hover a {
+	background-color: #FFF;
+}*/
+
+/*table#nav tbody td+td+td+td a {
+	color: #C30;
+	font-weight: bold;
+	border-bottom: 0;
+}*/
+
+table#nav tbody td+td+td+td a:active,tbody td+td+td+td a:hover,tbody td+td+td+td a:focus,tbody td+td+td+td a:visited {
+	color: #E63C1E;a
+}
+
+/*table#nav tbody td a[href="http://www.rodcast.com.br/"] {
+	margin: 0 auto;
+	display: block;
+	width: 15px;
+	height: 15px;
+	background: transparent url('data:image/gif;base64,R0lGODlhDwAPAIAAACEpMf///yH5BAAAAAAALAAAAAAPAA8AAAIjjA8Qer0JmYvULUOlxXEjaEndliUeA56c97TqSD5pfJnhNxYAOw%3D%3D') no-repeat;
+	text-indent: -999em;
+	border-bottom: 0;
+}*/
+

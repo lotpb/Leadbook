@@ -1,0 +1,256 @@
+@charset "UTF-8";
+/* CSS Document */
+
+*{ /* Resetting the default styles of the page */
+	margin:0px;
+	padding:3px;
+}
+
+.twoColFixRtHdr #sidebar1 {
+float:left;	
+height:850px;
+background: url(/images/bg.png) repeat-x #222222;
+font-size:16px;	
+background:#666; /*takes away grey*/
+text-align:left;
+}
+
+#sidebar1 p{ font-size:14px; padding:5px;
+}
+
+.twoColFixRtHdr #mainContent {
+margin:0 0 0 0;
+padding:0 0;
+}
+
+.MenuBarHorizontal{float:right;}
+
+ul.MenuBarHorizontal li {
+position:static;
+float:left;
+font-size:12px;
+width:9em;
+text-align:center;
+font-weight:400;
+background-position:top;
+}
+
+ul.MenuBarHorizontal a {
+color:#FFF;
+background-color:000;
+background:#000; /*takes away grey*/
+}
+
+#carbonForm{/* The main form container */
+background-color:#1C1C1C;
+border:1px solid #080808;
+margin:50px auto;
+padding:20px;
+width:1100px;
+-moz-box-shadow:0 0 1px #444 inset;
+-webkit-box-shadow:0 0 1px #444 inset;
+box-shadow:0 0 1px #444 inset;
+}
+
+#carbonForm h1{/* The form heading */
+font-size:60px;
+padding:0 0 10px 10px;
+}
+
+#carbonForm h2{/* The form heading */
+font-size:20px;
+padding:0 0 0px 10px;
+}
+
+.magglass {
+border:1px #0196e3 solid;
+background:#0196e3; 
+padding-top:1px;
+}
+
+/*blaze Button*/
+/*#redbutton { 
+padding-top:15px; 
+padding-bottom:7px;
+}*/
+
+.tableheader {
+font-size:14px;
+font-weight:700;
+color:#FFF;
+border:1px #0196e3 solid;
+background:#0196e3;
+padding:2px;
+}
+
+.tableheader:active,.magglass:active {
+transform:translateY(1px);
+-webkit-transform:translateY(1px);
+-moz-transform:translateY(1px);
+}
+
+.tableheader::-moz-focus-inner,.magglass::-moz-focus-inner {
+border:0;
+padding:0;
+}
+
+#nav a{
+color: #0196e3
+}
+
+#addnew { float:left; padding-bottom:10px;}
+#addnew a{ font-size:18px; padding-left:20px;}
+
+.formRow{
+height:15px;
+padding:5px;
+position:relative;
+}
+
+#form1 #formEdit #forminsert, fieldset {
+border-right-width: 1px; 
+border-bottom-width: 1px; 
+border-right-style: solid; 
+border-bottom-style: solid; 
+border-right-color: #000; 
+border-bottom-color: #000; 
+border-top-style: none; 
+border-left-style: none; 
+padding-top: 20px; 
+padding-left: 20px; 
+margin-bottom: 3px; 
+margin-top: 3px; 
+background: url(/images/bg.png) repeat-x #222222;
+
+}
+#form1 #formEdit #forminsert, legend {
+/*background: url(/images/bg.png) repeat-x #222222;*/
+background-color: #0196e3;
+letter-spacing: 0.01em;
+margin-top: 0.5px;
+padding-top: 5px;
+padding-right: 10px;
+padding-bottom: 5px;
+padding-left: 10px;
+font-size: 1em;
+text-align:left;
+text-transform: uppercase;
+}
+/*#form1 #formEdit #forminsert, #legendcolor { background-color: #CCCCCC; }
+#form1 #formEdit #forminsert, #fieldcolor { background-color: #CCCCCC; }*/
+
+#TabbedPanels1{
+width: 850px;
+float: right;
+}
+
+.TabbedPanelsContentGroup{ background-color:#000}
+
+.TabbedPanelsTab {
+font-size: 14px;
+color: #000;
+height: 20px;
+width: 135px;
+}
+
+#formEdit #divrepeat{float:left; padding-left:15px; padding-top:25px;}
+#formEdit label, #formEdit input, #formEdit textarea, #formEdit select{ font-size: 14px; }
+#formEdit input, #formEdit textarea, #formEdit select{ background: url(/images/bg.png) repeat-x #222222; color:#FFF; font-weight:bold;}
+#formEdit #LeadNo, #formEdit #Last_Name{ color: #0196e3; font-size: 18px; }
+
+#forminsert #divrepeat{float:left; padding-left:15px; padding-top:25px;}
+#forminsert label, #forminsert input, #forminsert  textarea, #forminsert  select{ font-size: 14px; }
+#forminsert input, #forminsert textarea, #forminsert select{ background: url(/images/bg.png) repeat-x #222222; color:#FFF; font-weight:bold;}
+#forminsert #Last_Name { background:#000; color: #0196e3; font-size: 18px; }
+#forminsert #Comments { background:#000; color: #0196e3; }
+
+#titlerepeat{
+font-family:Century Gothic,Myriad Pro,Arial,Helvetica,sans-serif;
+font-size:24px;
+font-weight:normal;
+padding:10px 0 10px 0px;
+color:#0196e3; }
+
+#forminsert #teltext{font-size: 10px; }
+
+#delform th {
+	color: #999999;
+	font-weight: bold;
+}
+#delform td, #delform th { text-align: left; }
+
+#ajaxtable{ border:none;}
+#ajaxtable th{
+	color: #0196e3;
+	font-weight: bold;
+	text-align: left;
+}
+#ajaxtable td{ font-size: 16px; text-align: right; }
+
+/* leadtable custtable */
+.tdAmount input{background: url(/images/bg.png) repeat-x #222222; color:#FFF; font-weight:bold; font-size:14px; text-align:right;}
+.tdtask input{background: url(/images/bg.png) repeat-x #222222; color:#FFF; font-weight:bold; font-size:12px; border:none;}
+
+.tddataright{ text-align:right;}
+.tddataleft{ text-align:left;}
+
+#maintable{float:left; width:60%; text-align:left}
+#infotable {text-align:left;}
+<!--.tablevalign{alignment-baseline:baseline;}-->
+
+/*custTable*/
+#photodiv{
+position:static;
+top:auto;
+left:auto;
+width:auto;
+height:400px;
+float:none;
+}
+
+#ulphoto{
+list-style-type:none;
+margin: 0;
+padding: 0;
+}
+
+#ulphoto li {
+float: left;
+width:400px;
+height:400px;
+padding-left: 10px;
+padding-top: 2px;
+}
+
+#threecoldiv{
+position:static;
+top:auto;
+left:auto;
+width:auto;
+height:auto;
+float:none;
+}
+
+#threecolul{
+list-style-type:none;
+margin: 0;
+padding: 0;
+}
+#threecolul li {
+float: left;
+padding-left: 3px;
+padding-top: 0px;
+}
+
+li #onem { width:20%; }
+li #twom { width:20%; }
+li #threem { width:35%; }
+#threecolul li#onecoment { padding-left:80px;}
+
+#map_canvas{
+margin:0;
+padding:0; 
+}
+
+#divsubmit{ float:none; padding-bottom:10px; padding-top:10px;}
+
